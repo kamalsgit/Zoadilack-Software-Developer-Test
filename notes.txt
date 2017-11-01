@@ -1,0 +1,33 @@
+Summarize the work we did based on your requirement.
+
+1) We used two different database
+
+    a) devdb1 = Mysql 
+        
+        Table:email_settins 
+        Fields:
+            1) email_from
+            2) email_subject    
+        
+        
+    b) devdb2 = Sqlite
+        Table:email_configurations
+        Fields:
+            1) email_body_template
+            
+    
+    
+    Note: Please both databases in root folder
+    
+2) Configured MailGun Api
+    
+    Note: Please replace with your api key and domain name.
+
+3) Created "ZoadilackController" controller
+
+    a) index (function/method)
+    b) notify (function/method)
+    
+4) Created command called "ZoadilackNotifications"
+
+
